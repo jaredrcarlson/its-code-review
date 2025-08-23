@@ -1,0 +1,50 @@
+# ---- General ----
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ---- Node / JavaScript ----
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+.env.*.local
+
+# ---- C# / .NET ----
+bin/
+obj/
+*.user
+*.suo
+*.vs
+.vscode/
+*.dbmdl
+*.bak
+*.sql
+*.sqlite
+
+# ---- Java ----
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.idea/
+out/
+target/
+
+# ---- Python (in case of scripts) ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+.env/
+
+# ---- Misc ----
+*.lock
+*.pid

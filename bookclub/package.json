@@ -1,0 +1,14 @@
+{
+    "name": "bookclub",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "npm run setup:app",
+        "setup:app": "npm run setup:server && npm run setup:client",
+        "setup:client": "cd bookclub.client && npm i",
+        "setup:server": "cd bookclub && npm i",
+        "start": "node bookclub/index.js"
+    },
+    "engines": {
+        "node": "^16"
+    }
+}
