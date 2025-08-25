@@ -83,6 +83,14 @@ Solo project from Boise State University’s CS361 course.
 
 ---
 
+### 5. [DLL Tester | Source Code](./doubly-linked-list-tester)
+
+**Doubly Linked List (Java · Unit Testing)**  
+Implemented a **doubly linked list** data structure in Java and verified it with **22 automated test scenarios**.  
+Tests cover both normal operations and edge cases, demonstrating strong unit testing practices and interface-driven design.
+
+---
+
 ## Skills Summary
 
 - **Languages:** C#, Java, Python, C++, JavaScript, SQL, HTML5  
