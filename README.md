@@ -16,7 +16,7 @@ its-code-review/
 ├── keepr/ # ASP.NET Core project (C# / MySQL)
 ├── tower/ # Node/Express/Vue full-stack project
 ├── bookclub/ # Team project (Node/Express/Vue, Google Books API)
-└── regex-nfa-dfa-validator/ # Java algorithms + JUnit tests  
+└── regex-nfa-dfa-validator/ # Java algorithms + Bash functional testing  
 ```
 
 ## Featured Applications
