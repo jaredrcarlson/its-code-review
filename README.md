@@ -72,14 +72,14 @@ Capstone project completed in a team of four (2 weeks).
 
 ### 4. [Regex → Validator | Source Code](./regex-nfa-dfa-validator)  
 
-**Java · Algorithms · JUnit Testing**  
+**Java · Algorithms · Bash-based Automated Testing**  
 Solo project from Boise State University’s CS361 course.  
 
 - Implemented regex parsing → NFA → DFA conversion from scratch  
 - Added DFA minimization for efficiency  
 - Built CLI for regex input and string validation  
-- Wrote comprehensive JUnit tests for high coverage  
-- Documented design decisions in code comments and README  
+- Documented design decisions in code comments and README
+- Built a Bash-based automated testing framework to validate end-to-end regex to DFA conversions  
 
 ---
 

@@ -134,9 +134,9 @@ Where `input.txt` contains:
 - Line 1: the regular expression  
 - Line 2+: input strings to validate against the regex
 
-## Unit Testing
+## Functional Testing
 
-Unit tests are run using a Bash script that compiles the program, executes each test file, and compares actual results against expectations. Each test has two parts:
+Tests are run using a Bash script that compiles the program, executes each test file, and compares actual results against expectations. Each test has two parts:
 
 1. **Line 1:** A regular expression to validate  
 2. **Subsequent lines:** Input strings, each annotated with the expected result (`yes` or `no`)  
@@ -150,9 +150,9 @@ When run, the script automatically creates a timestamped results directory conta
 
 ### Test File Naming
 
-- All unit test files must start with `unit-test_`  
+- All test files must start with `unit-test_`  
 - Examples: `unit-test_1`, `unit-test_email`, `unit-test_a_or_b`  
-- Unit test files extend the normal input format by appending `,yes` or `,no` to each string to indicate the expected outcome  
+- Test files extend the normal input format by appending `,yes` or `,no` to each string to indicate the expected outcome  
 
 ### Example Test File: `unit-test_a_or_b`
 
