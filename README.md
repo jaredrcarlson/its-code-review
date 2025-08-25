@@ -50,7 +50,7 @@ First individual full-stack project at CodeWorks.
 - Integrated **Auth0 authentication**  
 - Passed full Postman API test suite (19/19)  
 
-[Tower Demo](https://www.jaredcarlson.dev/tower)  
+#### [Tower Demo](https://www.jaredcarlson.dev/tower)  
 
 ---
 
@@ -66,7 +66,7 @@ Capstone project completed in a team of four (2 weeks).
 - Implemented the **Book Rating System**  
 - Mindfully participated in a **Healthy and Productive** environment
 
-[Book Club Demo](https://www.jaredcarlson.dev/bookclub)  
+#### [Book Club Demo](https://www.jaredcarlson.dev/bookclub)  
 
 ---
 
