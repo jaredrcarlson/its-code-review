@@ -4,7 +4,7 @@ A Java implementation of automata construction and validation from regular expre
 
 ## Summary
 
-This program converts regular expressions into nondeterministic finite automata (NFA), then into deterministic finite automata (DFA), and validates input strings against the resulting automata. It includes end-to-end parsing, automaton construction, minimization, and a command-line interface for testing. Comprehensive unit tests demonstrate correctness and maintainability.
+This program converts regular expressions into nondeterministic finite automata (NFA), then into deterministic finite automata (DFA), and validates input strings against the resulting automata. It includes end-to-end parsing, automaton construction, minimization, and a command-line interface for testing. Comprehensive functional tests demonstrate correctness and maintainability.
 
 ## Implementation
 
@@ -150,11 +150,11 @@ When run, the script automatically creates a timestamped results directory conta
 
 ### Test File Naming
 
-- All test files must start with `unit-test_`  
-- Examples: `unit-test_1`, `unit-test_email`, `unit-test_a_or_b`  
+- All test files must start with `test_`  
+- Examples: `test_1`, `test_case3`, `test_a_or_b`  
 - Test files extend the normal input format by appending `,yes` or `,no` to each string to indicate the expected outcome  
 
-### Example Test File: `unit-test_a_or_b`
+### Example Test File: `test_a_or_b`
 
 ```text
 (a|b)
@@ -170,16 +170,16 @@ e,no
 From the project root:
 
 ```bash
-./runUnitTests.sh [DEBUG_LEVEL]
+./runTests.sh [DEBUG_LEVEL]
 ```
 
 - `DEBUG_LEVEL` is optional (0–6). If omitted, it defaults to `0`.  
-- Results are stored in a new directory named `unit-tests_YYYY-MM-DD_HH-MM-SS/`  
+- Results are stored in a new directory named `tests_YYYY-MM-DD_HH-MM-SS/`  
 
 If needed, give the script execute permission:
 
 ```bash
-chmod +x runUnitTests.sh
+chmod +x runTests.sh
 ```
 
 ## Examples of test results (Debug Level 1) ##
@@ -265,6 +265,6 @@ Each regex is explained in plain English, followed by tables of accepted and rej
 ## Growth Indicators
 
 - Strengthened ability to **translate formal specifications** (regular expression grammar) into a working, maintainable software system  
-- Reinforced the importance of **unit testing** to validate correctness and provide confidence during changes  
+- Reinforced the importance of **testing** to validate correctness and provide confidence during changes  
 - Gained experience in **structuring code with single-responsibility classes**, making the system easier to read, debug, and extend  
 - Practiced building with an **iterative, step-by-step approach** (Regex → NFA → DFA → Validation) that mirrors Agile development workflows  

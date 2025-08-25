@@ -3,7 +3,7 @@ set -euo pipefail
 shopt -s nullglob
 
 STAMP="$(date +%Y-%m-%d_%H-%M-%S)"
-BLD_DIR="unit-tests_${STAMP}"
+BLD_DIR="tests_${STAMP}"
 DEBUG_LEVEL="${1:-0}"
 
 # Compile all sources (safer than only RegexValidator.java)
@@ -12,11 +12,11 @@ javac ./*.java
 mkdir -p "$BLD_DIR"
 
 # Clean stray editor backups
-rm -f ./unit-test_*~
+rm -f ./test_*~
 
-tests=(./unit-test_*)
+tests=(./test_*)
 if (( ${#tests[@]} == 0 )); then
-  echo "No unit-test_* files found."
+  echo "No test_* files found."
   exit 0
 fi
 
